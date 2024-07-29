@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.Home{
+    height: 970px;
+    width: 100%;
+    background-color: #291c3a;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #331c52;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  nav h2{
+    color: white;
+  }
+  .home-btn-div{
+    display: flex;
+    
+  }
+  .btn-home{
+    display: flex;
+    background-color:white;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+  }
+  .icon-btn{
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    padding-top: 2px;
+  }
+  .top-react-icon{
+  font-size: 1.3rem;
+  background-color: white;
+  padding-top: 3px;
+  
+  }
+  .btn-home a{
+    text-decoration: none;
+    color: black;
+  }
+  .home-text h2{
+    color: white;
+    padding-bottom: 20px;
+  }
+  .home-text h1{
+    color: white;
+    font-size: 80px;
+    padding-bottom: 20px;
+  }
+  .home-text p{
+    color: white;
+    font-size: 25px;
+  }
+  .home-text h2{
+    color: #8470af;
+    font-size: 60px;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  .home-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  
+  }
+  h1{
+    color: #331c52;
+  }
+  .icons{
+    padding-top: 20px;
+  }
+  .facebook-icon{
+  padding-left: 10px;
+  }
+  
+  .Linkedin-icon{
+    padding-right: 10px;
+  }
+  svg{
+    fill: #8470af;
+  }
+  .Linkedin-icon svg{
+    height: 32px;
+    padding-right: 70px;
+  }
+  .facebook-icon svg{
+    height: 32px;
+    padding-left: 40px;
+  }
+  .home-info{
+    padding-top: 80px;
+  }
+  .home-text{
+    text-align: center;
+    padding-top: 240px;
+  }
+  .pro-picture{
+    align-content: center;
+    padding-left: 100px;
+    padding-top: 120px;
+  }
+  .cards img{
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-image: url('./Assets/mypicture.jpg');
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+    position: relative;
+  }
+  .card img{
+   width: 100%;
+    height: 200px; 
+    background-image: url('./Assets/Books.png');
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+  }
+  .cardd img{
+    width: 100%;
+    height: 200px; 
+    background-image: url('./Assets/Survey.png');
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  

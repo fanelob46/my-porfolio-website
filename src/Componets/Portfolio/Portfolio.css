@@ -1,0 +1,216 @@
+.skills{
+    justify-content: right;
+  }
+  .skills h1{
+    padding-bottom: 20px;
+  }
+  .hmtl-icon{
+    border: 3px solid #DBE2E9;
+    width: fit-content;
+    background-color: #301934;
+    border-radius: 20%;
+    height: 70px;
+    padding-top: 10px;
+    
+  }
+  .hmtl-icon svg{
+    align-content: center;
+    height: 40px;
+    padding-top: 10px;
+  }
+  .css-icon{
+    border: 3px solid #DBE2E9;
+    width: fit-content;
+    background-color: #301934;
+    border-radius: 20%;
+    height: 70px;
+    padding-top: 10px;
+    
+  }
+  .css-icon svg{
+    align-content: center;
+    height: 40px;
+    padding-top: 10px;
+  }
+  .skills-icon{
+    display: flex;
+    padding-top: 20px;
+  }
+  .javascript-icon{
+    border: 3px solid #DBE2E9;
+    width: fit-content;
+    background-color: #301934;
+    border-radius: 20%;
+    height: 70px;
+    padding-top: 10px;
+    
+  }
+  .javascript-icon svg{
+    align-content: center;
+    height: 40px;
+    padding-top: 10px;
+  }
+  .react-icon{
+    border: 3px solid #DBE2E9;
+    width: fit-content;
+    background-color:#301934;
+    border-radius: 20%;
+    height: 70px;
+    padding-top: 10px;
+    
+  }
+  .react-icon svg{
+    align-content: center;
+    height: 40px;
+    padding-top: 10px;
+  }
+  .sql-icon{
+    border: 3px solid #DBE2E9;
+    width: fit-content;
+    background-color: #301934;
+    border-radius: 20%;
+    height: 70px;
+    padding-top: 10px;
+    
+  }
+  .sql-icon svg{
+    align-content: center;
+    height: 40px;
+    padding-top: 10px;
+  }
+  .net-icon{
+    border: 3px solid #DBE2E9;
+    width: fit-content;
+    background-color: #301934;
+    border-radius: 20%;
+    height: 70px;
+    padding-top: 10px;
+    
+  }
+  .net-icon svg{
+    align-content: center;
+    height: 40px;
+    padding-top: 10px;
+  }
+  .card{
+    width: 400px;
+    background-color: #DCCFED;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-top: 10px;
+    border-radius: 2%;
+  }
+  .card-content h1{
+    padding-top: 10px;
+  }
+  .cardd{
+    width: 400px;
+    background-color: #DCCFED;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-top: 10px;
+    border-radius: 2%;
+  }
+  .card img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+  }
+  .card-content{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+  .my-projects{
+    display: flex;
+  }
+
+  .info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    background-color: #DCCFED;
+  }
+  .MyPortfolio{
+    background-color: #E1EBED;
+  }
+  .about{
+    padding-left: 40px;
+    padding-top: 40px;
+  }
+  p{
+    font-size: 25px;
+  }
+  .about p{
+    padding-top: 20px;
+    padding-right: 300px;
+    
+  }
+  .about-skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .skills{
+    padding-top: 200px;
+  }
+  .projects{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-top: 40px;
+  }
+  .projects h1{
+    padding-bottom: 20px;
+  }
+  .projects p{
+    padding-bottom: 20px;
+  }
+  .project-github a{
+     text-decoration: none;
+  }
+  button{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  .project-github{
+    display: flex;
+    justify-content: center;
+  }
+  .project-github svg{
+     height: 25px;
+     fill: white;
+     padding-left: 82px;
+  
+  }
+  .project-github button{
+    border: 2px solid #301934;
+    background-color: #301934;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: fit-content;
+    width: 350px;
+  }
+  .btn-text{
+    padding-left: 5px;
+    
+  }
+  .btn-card{
+    justify-content: center;
+    padding-right: 65px;
+  }
+
+ 
