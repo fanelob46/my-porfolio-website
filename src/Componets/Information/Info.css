@@ -19,10 +19,10 @@ span{
     padding-top: 90px;
   }
   input{
-    background-color: white;
+    background-color: #E1EBED;
     width: 45%;
     height: 40px;
-    border: 2px solid #f8f8f8;
+    
     padding: 10px;
   }
   
@@ -43,4 +43,11 @@ span{
     background-color: #291c3a;
     color: white;
   }
+   /*=========================Media Queries (Medium Device======*/
+   @media screen and (max-width: 1024px) {
+    .info{
+     
+    }
+     
+   }
   
