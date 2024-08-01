@@ -7,9 +7,7 @@
     list-style: none;
     text-decoration: none;
 }
-body{
-  width: 1000px;
-}
+
 
 /*body{
   background-color: green;
@@ -199,6 +197,9 @@ body{
     .cardd img{
       height: 75px;
       width: 100%;
+    }
+    body{
+      min-width: min-content;
     }
     
   }
