@@ -35,10 +35,7 @@ const Home = () => {
                     </IconContext.Provider>
                     
                     </div> 
-                <a href={CV} download > 
-                    
-
-                Download Resume
+                <a href={CV} download >  Download Resume
             </a>
                 </button>
                 

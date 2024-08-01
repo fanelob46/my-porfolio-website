@@ -7,6 +7,21 @@
     list-style: none;
     text-decoration: none;
 }
+body{
+  width: 1000px;
+}
+
+/*body{
+  background-color: green;
+  width: 100vw;
+  border: 10px solid blue;
+}
+
+#root{
+  border: 2px solid;
+  /* background-color: yellow; */
+
+
 .Home{
     height: 970px;
     width: 100%;
@@ -157,9 +172,34 @@
   }
   /*=========================Media Queries (Medium Device======*/
   @media screen and (max-width: 1024px) {
-   .Home{
+    .cards img{
+      height: 350px;
+      width: 350px;
+    }
     
-   }
+  }
+  @media screen and (max-width: 768px) {
+    .cards{
+      padding-right: 20px;
+    }
+    .cards img{
+      height: 290px;
+      width: 290px;
+    }
+    .home-text h1{
+      font-size: 40px;
+    }
+    .home-text h2{
+      font-size: 29px;
+    }
+    .card img{
+      height: 75px;
+      width: 100%;
+    }
+    .cardd img{
+      height: 75px;
+      width: 100%;
+    }
     
   }
  

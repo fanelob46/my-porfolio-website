@@ -161,7 +161,7 @@
   .about-skills{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 20px
   }
   .skills{
     padding-top: 200px;
@@ -211,14 +211,47 @@
     padding-left: 5px;
     
   }
+  
   .btn-card{
     justify-content: center;
     padding-right: 65px;
   }
    /*=========================Media Queries (Medium Device======*/
-   @media screen and (max-width: 1024px) {
-     
-     
+   @media screen and (max-width:1400px) {
+
+  .about-skills{
+grid-template-columns: 1fr;
+  }
+  .skills{
+    padding-left: 40px;
+    padding-top: 20px;
+  }
+  
    }
+   @media screen and (max-width:768px) {
+
+
+    .my-projects{
+      height: 250px;
+      width: 75%;
+      padding-top: 15px;
+      padding-bottom: 10px;
+    }
+    .card-content h1{
+      font-size: 24px;
+      padding-bottom: 10px;
+    }
+    .card-content p{
+      font-size: 15px;
+      padding-bottom: 10px;
+    }
+    .project-github button{
+      width: 230px;
+    }
+    .btn-text{
+      font-size: 8px;
+    }
+    
+     }
 
  
